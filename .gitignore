@@ -1,0 +1,8 @@
+node_modules/
+
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+-/nbproject/private/
+/nbproject/
+package-lock\.json
