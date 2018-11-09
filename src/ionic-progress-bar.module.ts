@@ -16,7 +16,7 @@ import { SimpleProgressBarProvider } from './providers/progress-bar/progress-bar
 export class IonicSimpleProgressBarModule {
     static forRoot(): ModuleWithProviders {
         return {
-            ngModule: IonicAcademyModule,
+            ngModule: IonicSimpleProgressBarModule,
             providers: [SimpleProgressBarProvider]
         };
     }
