@@ -1,0 +1,12 @@
+<ion-content class="main-view">
+    <div class="overlay" (click)="dismiss()"></div>
+    <ion-scroll class="modal_content" scrollY="false">
+
+        <div class="message" text-nowrap><ion-spinner></ion-spinner><span [innerHTML]="message"></span></div>
+        <div class="progress-outer">
+            <div class="progress-inner" [ngStyle]="{'opacity': progress > 0 ? 1 : 0}"  [style.width]="progress.toString() + '%'">
+                {{progress | number: '1.0-0'}}%
+            </div>
+        </div>
+    </ion-scroll>
+</ion-content>

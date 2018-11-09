@@ -1,0 +1,37 @@
+{
+  "name": "ionic-progress-bar",
+  "version": "0.0.1",
+  "description": "A simple progress bar alert for Ionic 3",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosAyala/ionic-progress-bar.git"
+  },
+  "keywords": [],
+  "author": "Carlos Ayala",
+  "license": "MIT",
+  "homepage": "https://www.linkedin.com/in/carlosayalacalvo/",
+  "devDependencies": {
+    "@angular/common": "^5.2.11",
+    "@angular/compiler": "^5.2.11",
+    "@angular/compiler-cli": "^5.2.11",
+    "@angular/core": "^5.2.11",
+    "@angular/forms": "^5.2.11",
+    "@angular/platform-browser": "^5.2.11",
+    "@angular/platform-browser-dynamic": "^5.2.11",
+    "@types/node": "^9.4.6",
+    "ionic-angular": "3.9.2",
+    "rxjs": "5.5.11",
+    "typescript": "2.4.2",
+    "zone.js": "^0.8.26"
+  }
+}
