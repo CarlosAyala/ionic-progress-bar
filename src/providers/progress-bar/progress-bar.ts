@@ -4,7 +4,7 @@ import { ProgressBarComponent } from '../../components/progress-bar/progress-bar
 import { Observable } from 'rxjs/Rx';
 
 @Injectable()
-export class ProgressBarProvider {
+export class SimpleProgressBarProvider {
 
     protected _profile_modal: Modal;
 

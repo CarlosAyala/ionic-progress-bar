@@ -1,6 +1,6 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { IonicModule } from 'ionic-angular';
-import { ProgressBarProvider } from './providers/progress-bar/progress-bar';
+import { SimpleProgressBarProvider } from './providers/progress-bar/progress-bar';
 
 @NgModule({
     imports: [
@@ -10,14 +10,14 @@ import { ProgressBarProvider } from './providers/progress-bar/progress-bar';
     exports: [
     ],
     providers: [
-        ProgressBarProvider
+        SimpleProgressBarProvider
     ]
 })
-export class IonicProgressBarModule {
+export class IonicSimpleProgressBarModule {
     static forRoot(): ModuleWithProviders {
         return {
             ngModule: IonicAcademyModule,
-            providers: [ProgressBarProvider]
+            providers: [SimpleProgressBarProvider]
         };
     }
 }
