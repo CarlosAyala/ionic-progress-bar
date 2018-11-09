@@ -6,9 +6,7 @@ import { ProgressBarProvider } from './providers/progress-bar/progress-bar';
     imports: [
         IonicModule
     ],
-    declarations: [
-    
-    ],
+    declarations: [],
     exports: [
     ],
     providers: [
