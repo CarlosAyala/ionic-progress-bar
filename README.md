@@ -62,6 +62,9 @@ this._progressBar.present("Starting sync", 5).subscribe(
         this._progressBar.setMilestone("Sync process 5");
         ....
         this._progressBar.dismiss();
+    },
+    (err) => {
+        console.error(err);
     }
 );
 ```
