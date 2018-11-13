@@ -9,6 +9,9 @@ import {SimpleProgressBarComponent} from './components/progress-bar/progress-bar
     ],
     declarations: [SimpleProgressBarComponent],
     exports: [SimpleProgressBarComponent],
+    entryComponents: [
+        SimpleProgressBarComponent
+    ],
     providers: [
         SimpleProgressBarProvider
     ]
