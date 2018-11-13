@@ -1,6 +1,8 @@
 # ionic-progress-bar
 
-Simple progress bar alert for Ionic3
+Simple progress bar alert for Ionic3" 
+
+<img src="https://preview.ibb.co/nweyvL/Captura-de-pantalla-de-2018-11-13-18-00-00.png" alt="Captura-de-pantalla-de-2018-11-13-18-00-00" border="0">
 
 Installation
 -------------
