@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ModalController, Modal, Events } from 'ionic-angular';
-import { ProgressBarComponent } from '../../components/progress-bar/progress-bar';
+import { SimpleProgressBarComponent } from '../../components/progress-bar/progress-bar';
 import { Observable } from 'rxjs/Rx';
 
 @Injectable()
@@ -15,7 +15,7 @@ export class SimpleProgressBarProvider {
 
     public present(message: string, milestones: number) : Observable<void>{
         return Observable.create((observer) => {
-            this._profile_modal = this.modalCtrl.create(ProgressBarComponent, { message: message, total: milestones, actual: 0 });
+            this._profile_modal = this.modalCtrl.create(SimpleProgressBarComponent, { message: message, total: milestones, actual: 0 });
             this._profile_modal.present().then(
                 () => {                
                     observer.next();

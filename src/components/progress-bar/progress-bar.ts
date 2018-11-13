@@ -5,7 +5,7 @@ import { NavParams, Events } from 'ionic-angular';
   selector: 'progress-bar',
   templateUrl: 'progress-bar.html'
 })
-export class ProgressBarComponent implements OnInit, OnDestroy {
+export class SimpleProgressBarComponent implements OnInit, OnDestroy {
 
     public message: string = "";
     public progress: number = 0;
